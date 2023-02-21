@@ -1,5 +1,7 @@
-print("hello world")
+
 import subprocess
+
+n = input()
 subprocess.run('ffmpeg -i rickroll.mp4 nic.mp3', shell = True)
 
 # with stuff open
